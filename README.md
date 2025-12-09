@@ -15,9 +15,9 @@ _This README will be updated each day as I progress through the challenge._
 
 ## 📅 **Day-by-Day Progress**
 
-| Day | Project | What I Learned | Link / Status |
-| :-: | :------ | :------------- | :------------ |
-| 01  | _TBD_   | _Upcoming..._  | [Pending]     |
+| Day | Project             | What I Learned                                                         | Link / Status                                     |
+| :-: | :------------------ | :--------------------------------------------------------------------- | :------------------------------------------------ |
+| 01  | Accordion Component | State management, conditional rendering, array methods, props drilling | [Day01-Accordion](./src/projects/Day01-Accordion) |
 
 _(More days will be added as I progress)_
 
