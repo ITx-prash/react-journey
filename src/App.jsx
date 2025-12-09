@@ -1,5 +1,7 @@
+import Accordion from "./projects/Day01-Accordion/Accordion";
+
 const App = () => {
-  return <div>App</div>;
+  return <Accordion />;
 };
 
 export default App;
