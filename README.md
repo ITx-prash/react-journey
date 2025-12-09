@@ -1,6 +1,6 @@
 # ⚛️ **30 Days of React (Starting Phase)**
 
-Welcome to my **30 Days of React** journey! This repository, `react-journey`, documents my progress as I dive into React.js for the next 30 days. I'll be building different projects, learning core concepts, and documenting everything I learn along the way.
+Welcome to my **30 Days of React** journey! This repository, `react-journey`, documents my progress as I dive into React.js with an initial 30 days challenge. I'll be building different projects, learning core concepts, and documenting everything I learn along the way.
 
 _This README will be updated each day as I progress through the challenge._
 
@@ -27,7 +27,7 @@ _(More days will be added as I progress)_
 
 - Build a new project or learn a significant concept each day.
 - Document my learnings and challenges.
-- Share my progress on Twitter for accountability.
+- Share my progress on X for accountability.
 - Push code to this repository daily.
 
 ---
