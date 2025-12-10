@@ -18,6 +18,7 @@ _This README will be updated each day as I progress through the challenge._
 | Day | Project             | What I Learned                                                         | Link / Status                                     |
 | :-: | :------------------ | :--------------------------------------------------------------------- | :------------------------------------------------ |
 | 01  | Accordion Component | State management, conditional rendering, array methods, props drilling | [Day01-Accordion](./src/projects/Day01-Accordion) |
+| 02  | Random Color Generator | Dynamic styles, RGB/HEX conversion, Math.random(), padStart(), event handlers | [Day02-Random-colorgen](./src/projects/Day02-Random-colorgen) |
 
 _(More days will be added as I progress)_
 
