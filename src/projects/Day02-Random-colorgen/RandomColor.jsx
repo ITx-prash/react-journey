@@ -22,11 +22,7 @@ const RandomColor = () => {
     //Hex Implementation
     const totalCombination = Math.floor(Math.random() * 256 * 256 * 256 + 1);
     let hexNum = totalCombination.toString(16);
-    if (hexNum.length !== 6) {
-      for (let i = 0; i < 6 - hexNum.length; i++) {
-        // hexNum = "0" + hexNum;
-      }
-    }
+
     // can use padStart inbuilt method
     hexNum = hexNum.padStart(6, "0");
     setHex(hexNum);
