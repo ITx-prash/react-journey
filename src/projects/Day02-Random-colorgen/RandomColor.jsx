@@ -2,7 +2,6 @@ import { useState } from "react";
 import Button from "../../components/Button";
 
 const RandomColor = () => {
-  //   const [colorMode, setColorMode] = useState("RGB");
   const [activeColor, setActiveColor] = useState("RGB");
   const [red, setRed] = useState(0);
   const [green, setGreen] = useState(0);
@@ -11,9 +10,9 @@ const RandomColor = () => {
   const randomColorGenerator = () => {
     //RGB Implementation
     if (activeColor === "RGB") {
-      const r = Math.floor(Math.random() * 255 + 1);
-      const g = Math.floor(Math.random() * 255 + 1);
-      const b = Math.floor(Math.random() * 255 + 1);
+      const r = Math.floor(Math.random() * 256);
+      const g = Math.floor(Math.random() * 256);
+      const b = Math.floor(Math.random() * 256);
       setRed(r);
       setGreen(g);
       setBlue(b);
@@ -23,11 +22,13 @@ const RandomColor = () => {
     //Hex Implementation
     const totalCombination = Math.floor(Math.random() * 256 * 256 * 256 + 1);
     let hexNum = totalCombination.toString(16);
-    if (hexNum.length != 6) {
+    if (hexNum.length !== 6) {
       for (let i = 0; i < 6 - hexNum.length; i++) {
-        hexNum = "0" + hexNum;
+        // hexNum = "0" + hexNum;
       }
     }
+    // can use padStart inbuilt method
+    hexNum = hexNum.padStart(6, "0");
     setHex(hexNum);
   };
   return (
