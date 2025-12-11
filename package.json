@@ -12,6 +12,7 @@
   "dependencies": {
     "@tabler/icons-react": "^3.35.0",
     "@tailwindcss/vite": "^4.1.17",
+    "axios": "^1.13.2",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "react": "^19.2.0",
