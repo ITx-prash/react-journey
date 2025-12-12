@@ -11,7 +11,7 @@ const App = () => {
       {/* <Accordion /> */}
       {/* <RandomColor /> */}
       {/* <RatingStar noOfStars={9} /> */}
-      <ImageSlider />
+      <ImageSlider limit={8} />
     </>
   );
 };
