@@ -15,12 +15,13 @@ _This README will be updated each day as I progress through the challenge._
 
 ## 📅 **Day-by-Day Progress**
 
-| Day | Project                    | What I Learned                                                                 | Link / Status                                                                   |
-| :-: | :------------------------- | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| 01  | Accordion Component        | State management, conditional rendering, array methods, props drilling         | [Day01-Accordion](./src/projects/Day01-Accordion)                               |
-| 02  | Random Color Generator     | Dynamic styles, RGB/HEX conversion, Math.random(), padStart(), event handlers  | [Day02-Random-colorgen](./src/projects/Day02-Random-colorgen)                   |
-| 03  | Star Rating & Image Slider | Hover effects, array manipulation, useEffect, axios, API fetching, async/await | [Day03-Star-Rating&Image-Slider](./src/projects/Day03-Star-Rating&Image-Slider) |
-| 04  | Load More Products         | Data pagination, functional updates, derived state, button disable logic       | [Day04-Load-more-items](./src/projects/Day04-Load-more-items)                   |
+| Day | Project                    | What I Learned                                                                  | Link / Status                                                                   |
+| :-: | :------------------------- | :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------ |
+| 01  | Accordion Component        | State management, conditional rendering, array methods, props drilling          | [Day01-Accordion](./src/projects/Day01-Accordion)                               |
+| 02  | Random Color Generator     | Dynamic styles, RGB/HEX conversion, Math.random(), padStart(), event handlers   | [Day02-Random-colorgen](./src/projects/Day02-Random-colorgen)                   |
+| 03  | Star Rating & Image Slider | Hover effects, array manipulation, useEffect, axios, API fetching, async/await  | [Day03-Star-Rating&Image-Slider](./src/projects/Day03-Star-Rating&Image-Slider) |
+| 04  | Load More Products         | Data pagination, functional updates, derived state, button disable logic        | [Day04-Load-more-items](./src/projects/Day04-Load-more-items)                   |
+| 05  | TreeView Menu              | Recursive components, nested data structures, animated transitions, react-icons | [Day05-TreeView](./src/projects/Day05-TreeView)                                 |
 
 _(More days will be added as I progress)_
 
