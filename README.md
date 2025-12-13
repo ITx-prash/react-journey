@@ -48,6 +48,7 @@ _(More days will be added as I progress)_
 
 I'll be posting daily updates about what I learned and the projects I built.
 
+- **Live Demo:** [react-journy.vercel.app](https://react-journy.vercel.app/)
 - **Twitter:** [@ITx_prash](https://twitter.com/ITx_prash) for daily updates.
 - **GitHub:** [react-journey](https://github.com/ITx-prash/react-journey)
 
