@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MdArrowForward } from "react-icons/md";
+import { Analytics } from "@vercel/analytics/next";
 
 const Home = () => {
   const projects = [
@@ -148,6 +149,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Analytics />
     </div>
   );
 };
