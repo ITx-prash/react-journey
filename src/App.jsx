@@ -4,6 +4,7 @@ import ImageSlider from "./projects/Day03-Star-Rating&Image-Slider/ImageSlider";
 
 import RatingStar from "./projects/Day03-Star-Rating&Image-Slider/RatingStar";
 import LoadMore from "./projects/Day04-Load-more-items/LoadMore";
+import TreeView from "./projects/Day05-TreeView/TreeView";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <RandomColor /> */}
       {/* <RatingStar noOfStars={9} /> */}
       {/* <ImageSlider limit={8} /> */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+      <TreeView />
     </>
   );
 };
