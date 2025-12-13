@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { MdArrowForward } from "react-icons/md";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const Home = () => {
   const projects = [
