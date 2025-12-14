@@ -22,6 +22,7 @@ _This README will be updated each day as I progress through the challenge._
 | 03  | Star Rating & Image Slider | Hover effects, array manipulation, useEffect, axios, API fetching, async/await  | [Day03-Star-Rating&Image-Slider](./src/projects/Day03-Star-Rating&Image-Slider) |
 | 04  | Load More Products         | Data pagination, functional updates, derived state, button disable logic        | [Day04-Load-more-items](./src/projects/Day04-Load-more-items)                   |
 | 05  | TreeView Menu              | Recursive components, nested data structures, animated transitions, react-icons | [Day05-TreeView](./src/projects/Day05-TreeView)                                 |
+| 06  | QR Code Generator          | Third-party libraries (react-qr-code), controlled inputs, conditional rendering | [Day06-QR-Generator](./src/projects/Day06-QR-Generator)                         |
 
 _(More days will be added as I progress)_
 
