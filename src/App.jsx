@@ -6,6 +6,7 @@ import ImageSlider from "./projects/Day03-Star-Rating&Image-Slider/ImageSlider";
 import RatingStar from "./projects/Day03-Star-Rating&Image-Slider/RatingStar";
 import LoadMore from "./projects/Day04-Load-more-items/LoadMore";
 import TreeView from "./projects/Day05-TreeView/TreeView";
+import QR from "./projects/Day06-QR-Generator/QR";
 import NavHeader from "./components/NavHeader";
 
 const App = () => {
@@ -58,6 +59,15 @@ const App = () => {
             <>
               <NavHeader />
               <TreeView />
+            </>
+          }
+        />
+        <Route
+          path="/day06-qr-generator"
+          element={
+            <>
+              <NavHeader />
+              <QR />
             </>
           }
         />

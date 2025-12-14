@@ -44,11 +44,19 @@ const Home = () => {
       path: "/day05-treeview",
       completed: true,
     },
-    ...Array.from({ length: 25 }, (_, i) => ({
-      day: i + 6,
-      title: `Day ${i + 6} Project`,
+    {
+      day: 6,
+      title: "QR Code Generator",
+      description:
+        "Third-party libraries (react-qr-code), controlled inputs, conditional rendering",
+      path: "/day06-qr-generator",
+      completed: true,
+    },
+    ...Array.from({ length: 24 }, (_, i) => ({
+      day: i + 7,
+      title: `Day ${i + 7} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 6).padStart(2, "0")}`,
+      path: `/day${String(i + 7).padStart(2, "0")}`,
       completed: false,
     })),
   ];
