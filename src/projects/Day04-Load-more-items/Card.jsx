@@ -1,4 +1,4 @@
-import Button from "../../components/Button";
+
 const Card = ({ title, image }) => {
   return (
     <div className="flex h-72 w-56 grow flex-col items-center justify-around gap-4 rounded-xl border-2 px-3">
