@@ -52,11 +52,27 @@ const Home = () => {
       path: "/day06-qr-generator",
       completed: true,
     },
-    ...Array.from({ length: 24 }, (_, i) => ({
-      day: i + 7,
-      title: `Day ${i + 7} Project`,
+    {
+      day: 7,
+      title: "Theme Switcher",
+      description:
+        "Custom hooks (useLocalStorage), localStorage API, dark mode with Tailwind",
+      path: "/day07-theme-switcher",
+      completed: true,
+    },
+    {
+      day: 7,
+      title: "Scroll Progress Indicator",
+      description:
+        "Window scroll events, useEffect cleanup, dynamic width calculations",
+      path: "/day07-scroll-indicator",
+      completed: true,
+    },
+    ...Array.from({ length: 23 }, (_, i) => ({
+      day: i + 8,
+      title: `Day ${i + 8} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 7).padStart(2, "0")}`,
+      path: `/day${String(i + 8).padStart(2, "0")}`,
       completed: false,
     })),
   ];

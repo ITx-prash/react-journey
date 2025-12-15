@@ -8,6 +8,8 @@ import LoadMore from "./projects/Day04-Load-more-items/LoadMore";
 import TreeView from "./projects/Day05-TreeView/TreeView";
 import QR from "./projects/Day06-QR-Generator/QR";
 import NavHeader from "./components/NavHeader";
+import ThemeSwitcher from "./projects/Day07-Theme-Switch/ThemeSwitcher";
+import ScrollIndicator from "./projects/Day07-Theme-Switch/ScrollIndicator";
 
 const App = () => {
   return (
@@ -68,6 +70,24 @@ const App = () => {
             <>
               <NavHeader />
               <QR />
+            </>
+          }
+        />
+        <Route
+          path="/day07-theme-switcher"
+          element={
+            <>
+              <NavHeader />
+              <ThemeSwitcher />
+            </>
+          }
+        />
+        <Route
+          path="/day07-scroll-indicator"
+          element={
+            <>
+              <NavHeader />
+              <ScrollIndicator />
             </>
           }
         />
