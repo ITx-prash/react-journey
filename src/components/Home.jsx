@@ -68,11 +68,19 @@ const Home = () => {
       path: "/day07-scroll-indicator",
       completed: true,
     },
-    ...Array.from({ length: 23 }, (_, i) => ({
-      day: i + 8,
-      title: `Day ${i + 8} Project`,
+    {
+      day: 8,
+      title: "Custom Tabs Component",
+      description:
+        "Component composition, prop callbacks (onChange), array mapping, dynamic content rendering",
+      path: "/day08-custom-tabs",
+      completed: true,
+    },
+    ...Array.from({ length: 22 }, (_, i) => ({
+      day: i + 9,
+      title: `Day ${i + 9} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 8).padStart(2, "0")}`,
+      path: `/day${String(i + 9).padStart(2, "0")}`,
       completed: false,
     })),
   ];

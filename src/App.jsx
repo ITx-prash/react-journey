@@ -10,6 +10,7 @@ import QR from "./projects/Day06-QR-Generator/QR";
 import NavHeader from "./components/NavHeader";
 import ThemeSwitcher from "./projects/Day07-Theme-Switch/ThemeSwitcher";
 import ScrollIndicator from "./projects/Day07-Theme-Switch/ScrollIndicator";
+import CustomTab from "./projects/Day08-CustomTabs/CustomTabParent";
 
 const App = () => {
   return (
@@ -88,6 +89,15 @@ const App = () => {
             <>
               <NavHeader />
               <ScrollIndicator />
+            </>
+          }
+        />
+        <Route
+          path="/day08-custom-tabs"
+          element={
+            <>
+              <NavHeader />
+              <CustomTab />
             </>
           }
         />
