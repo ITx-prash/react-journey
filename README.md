@@ -27,6 +27,7 @@ _This README will be updated each day as I progress through the challenge._
 | 06  | QR Code Generator                | Third-party libraries (react-qr-code), controlled inputs, conditional rendering                 | [Day06-QR-Generator](./src/projects/Day06-QR-Generator)                         |
 | 07  | Theme Switcher & Scroll Progress | Custom hooks (useLocalStorage), localStorage API, window scroll events, dark mode with Tailwind | [Day07-Theme-Switch](./src/projects/Day07-Theme-Switch)                         |
 | 08  | Custom Tabs Component            | Component composition, prop callbacks (onChange), array mapping, dynamic content rendering      | [Day08-CustomTabs](./src/projects/Day08-CustomTabs)                             |
+| 09  | Modal Popup                      | Fixed positioning, overlay backgrounds, conditional rendering, prop callbacks for closing       | [Day09-Modal-Popup](./src/projects/Day09-Modal-Popup)                           |
 
 _(More days will be added as I progress)_
 
