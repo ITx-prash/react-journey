@@ -11,6 +11,7 @@ import NavHeader from "./components/NavHeader";
 import ThemeSwitcher from "./projects/Day07-Theme-Switch/ThemeSwitcher";
 import ScrollIndicator from "./projects/Day07-Theme-Switch/ScrollIndicator";
 import CustomTab from "./projects/Day08-CustomTabs/CustomTabParent";
+import ModalPopup from "./projects/Day09-Modal-Popup/ModalPopup";
 
 const App = () => {
   return (
@@ -98,6 +99,15 @@ const App = () => {
             <>
               <NavHeader />
               <CustomTab />
+            </>
+          }
+        />
+        <Route
+          path="/day09-modal-popup"
+          element={
+            <>
+              <NavHeader />
+              <ModalPopup/>
             </>
           }
         />

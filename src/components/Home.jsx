@@ -76,11 +76,19 @@ const Home = () => {
       path: "/day08-custom-tabs",
       completed: true,
     },
-    ...Array.from({ length: 22 }, (_, i) => ({
-      day: i + 9,
-      title: `Day ${i + 9} Project`,
+    {
+      day: 9,
+      title: "Modal Popup",
+      description:
+        "Fixed positioning, overlay backgrounds, conditional rendering, prop callbacks for closing",
+      path: "/day09-modal-popup",
+      completed: true,
+    },
+    ...Array.from({ length: 21 }, (_, i) => ({
+      day: i + 10,
+      title: `Day ${i + 10} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 9).padStart(2, "0")}`,
+      path: `/day${String(i + 10).padStart(2, "0")}`,
       completed: false,
     })),
   ];
