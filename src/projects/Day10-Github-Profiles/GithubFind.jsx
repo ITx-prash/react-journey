@@ -88,7 +88,7 @@ const GithubFind = () => {
                 </a>
               </div>
 
-              {/* Info Section */}
+              {/* Details */}
               <div className="flex flex-col gap-4">
                 {/* Name & Username */}
                 <div>
