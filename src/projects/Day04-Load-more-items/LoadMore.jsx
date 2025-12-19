@@ -31,7 +31,7 @@ const LoadMore = () => {
   const disableBtn = products.length >= 100;
 
   return (
-    <div className="flex flex-col items-center justify-center gap-6 p-4 bg-gray-100">
+    <div className="flex flex-col items-center justify-center gap-6 bg-gray-100 p-4">
       <div className="flex flex-wrap gap-6">
         {isLoading && <IconFidgetSpinner className="animate-spin" />}
         {products.length > 0
