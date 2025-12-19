@@ -12,6 +12,7 @@ import ThemeSwitcher from "./projects/Day07-Theme-Switch/ThemeSwitcher";
 import ScrollIndicator from "./projects/Day07-Theme-Switch/ScrollIndicator";
 import CustomTab from "./projects/Day08-CustomTabs/CustomTabParent";
 import ModalPopup from "./projects/Day09-Modal-Popup/ModalPopup";
+import GithubFind from "./projects/Day10-Github-Profiles/GithubFind";
 
 const App = () => {
   return (
@@ -107,7 +108,16 @@ const App = () => {
           element={
             <>
               <NavHeader />
-              <ModalPopup/>
+              <ModalPopup />
+            </>
+          }
+        />
+        <Route
+          path="/day10-github-profiles"
+          element={
+            <>
+              <NavHeader />
+              <GithubFind />
             </>
           }
         />

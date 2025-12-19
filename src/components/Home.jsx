@@ -84,11 +84,19 @@ const Home = () => {
       path: "/day09-modal-popup",
       completed: true,
     },
-    ...Array.from({ length: 21 }, (_, i) => ({
-      day: i + 10,
-      title: `Day ${i + 10} Project`,
+    {
+      day: 10,
+      title: "GitHub Profile Finder",
+      description:
+        "REST API integration with GitHub API, axios, async/await, error handling, loading states",
+      path: "/day10-github-profiles",
+      completed: true,
+    },
+    ...Array.from({ length: 20 }, (_, i) => ({
+      day: i + 11,
+      title: `Day ${i + 11} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 10).padStart(2, "0")}`,
+      path: `/day${String(i + 11).padStart(2, "0")}`,
       completed: false,
     })),
   ];
