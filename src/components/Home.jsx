@@ -92,11 +92,19 @@ const Home = () => {
       path: "/day10-github-profiles",
       completed: true,
     },
-    ...Array.from({ length: 20 }, (_, i) => ({
-      day: i + 11,
-      title: `Day ${i + 11} Project`,
+    {
+      day: 11,
+      title: "Search Autocomplete",
+      description:
+        "Array filtering, string methods (indexOf), conditional dropdown rendering, click event handling",
+      path: "/day11-auto-complete",
+      completed: true,
+    },
+    ...Array.from({ length: 19 }, (_, i) => ({
+      day: i + 12,
+      title: `Day ${i + 12} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 11).padStart(2, "0")}`,
+      path: `/day${String(i + 12).padStart(2, "0")}`,
       completed: false,
     })),
   ];

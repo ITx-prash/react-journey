@@ -13,6 +13,7 @@ import ScrollIndicator from "./projects/Day07-Theme-Switch/ScrollIndicator";
 import CustomTab from "./projects/Day08-CustomTabs/CustomTabParent";
 import ModalPopup from "./projects/Day09-Modal-Popup/ModalPopup";
 import GithubFind from "./projects/Day10-Github-Profiles/GithubFind";
+import AutoComplete from "./projects/Day11-Search-Autocomplete/AutoComplete";
 
 const App = () => {
   return (
@@ -118,6 +119,15 @@ const App = () => {
             <>
               <NavHeader />
               <GithubFind />
+            </>
+          }
+        />
+        <Route
+          path="/day11-auto-complete"
+          element={
+            <>
+              <NavHeader />
+              <AutoComplete />
             </>
           }
         />
