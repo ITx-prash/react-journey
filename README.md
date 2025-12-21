@@ -30,6 +30,7 @@ _This README will be updated each day as I progress through the challenge._
 | 09  | Modal Popup                      | Fixed positioning, overlay backgrounds, conditional rendering, prop callbacks for closing       | [Day09-Modal-Popup](./src/projects/Day09-Modal-Popup)                           |
 | 10  | GitHub Profile Finder            | REST API integration with GitHub API, axios, async/await, error handling, loading states        | [Day10-Github-Profiles](./src/projects/Day10-Github-Profiles)                   |
 | 11  | Search Autocomplete              | Array filtering, string methods (indexOf), conditional dropdown rendering, click event handling | [Day11-Search-Autocomplete](./src/projects/Day11-Search-Autocomplete)           |
+| 12  | Feature Flag Implementation      | Context API, useContext, conditional component rendering                                        | [Day12-Feature-Flag](./src/projects/Day12-Feature-Flag)                         |
 
 _(More days will be added as I progress)_
 
