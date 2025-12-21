@@ -100,11 +100,18 @@ const Home = () => {
       path: "/day11-auto-complete",
       completed: true,
     },
-    ...Array.from({ length: 19 }, (_, i) => ({
-      day: i + 12,
-      title: `Day ${i + 12} Project`,
+    {
+      day: 12,
+      title: "Feature Flag Implementation",
+      description: "Context API, useContext, conditional component rendering",
+      path: "/day12-feature-flag",
+      completed: true,
+    },
+    ...Array.from({ length: 18 }, (_, i) => ({
+      day: i + 13,
+      title: `Day ${i + 13} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 12).padStart(2, "0")}`,
+      path: `/day${String(i + 13).padStart(2, "0")}`,
       completed: false,
     })),
   ];

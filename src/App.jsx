@@ -14,6 +14,7 @@ import CustomTab from "./projects/Day08-CustomTabs/CustomTabParent";
 import ModalPopup from "./projects/Day09-Modal-Popup/ModalPopup";
 import GithubFind from "./projects/Day10-Github-Profiles/GithubFind";
 import AutoComplete from "./projects/Day11-Search-Autocomplete/AutoComplete";
+import FeatureFlag from "./projects/Day12-Feature-Flag/FeatureFlag";
 
 const App = () => {
   return (
@@ -128,6 +129,15 @@ const App = () => {
             <>
               <NavHeader />
               <AutoComplete />
+            </>
+          }
+        />
+        <Route
+          path="/day12-feature-flag"
+          element={
+            <>
+              <NavHeader />
+              <FeatureFlag />
             </>
           }
         />
