@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NotFound from "./components/NotFound";
 import Home from "./components/Home";
 import Accordion from "./projects/Day01-Accordion/Accordion";
 import RandomColor from "./projects/Day02-Random-colorgen/RandomColor";
@@ -15,11 +16,21 @@ import ModalPopup from "./projects/Day09-Modal-Popup/ModalPopup";
 import GithubFind from "./projects/Day10-Github-Profiles/GithubFind";
 import AutoComplete from "./projects/Day11-Search-Autocomplete/AutoComplete";
 import FeatureFlag from "./projects/Day12-Feature-Flag/FeatureFlag";
+import TestUseFetch from "./projects/Day13-Custom-Hooks/testUseFetch";
 
 const App = () => {
   return (
     <Router>
       <Routes>
+        <Route
+          path="*"
+          element={
+            <>
+              <NavHeader />
+              <NotFound />
+            </>
+          }
+        />
         <Route path="/" element={<Home />} />
         <Route
           path="/day01-accordion"
@@ -138,6 +149,15 @@ const App = () => {
             <>
               <NavHeader />
               <FeatureFlag />
+            </>
+          }
+        />
+        <Route
+          path="/day13-usefetch"
+          element={
+            <>
+              <NavHeader />
+              <TestUseFetch />
             </>
           }
         />
