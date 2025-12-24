@@ -11,6 +11,8 @@ const ScrollToSection = () => {
 
   const handleScrollToSection = () => {
     if (!ref.current) return;
+    // block: "start" aligns the element’s top edge with the scroll container’s top edge
+    // scrollIntoView is used to scroll to a specific element
     ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
