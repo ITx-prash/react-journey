@@ -31,8 +31,8 @@ _This README will be updated each day as I progress through the challenge._
 | 10  | GitHub Profile Finder            | REST API integration with GitHub API, axios, async/await, error handling, loading states        | [Day10-Github-Profiles](./src/projects/Day10-Github-Profiles)                   |
 | 11  | Search Autocomplete              | Array filtering, string methods (indexOf), conditional dropdown rendering, click event handling | [Day11-Search-Autocomplete](./src/projects/Day11-Search-Autocomplete)           |
 | 12  | Feature Flag Implementation      | Context API, useContext, conditional component rendering                                        | [Day12-Feature-Flag](./src/projects/Day12-Feature-Flag)                         |
-| 13  | Custom Hooks                     | Custom hooks (useFetch, useOnClickOutside), useEffect, useRef, event listeners                 | [Day13-Custom-Hooks](./src/projects/Day13-Custom-Hooks)                         |
-
+| 13  | Custom Hooks                     | Custom hooks (useFetch, useOnClickOutside), useEffect, useRef, event listeners                  | [Day13-Custom-Hooks](./src/projects/Day13-Custom-Hooks)                         |
+| 14  | Scroll to Top/Bottom & Section   | scrollTo, scrollIntoView, useRef for DOM access, smooth scrolling behavior                      | [Day14-ScrollTopBottom](./src/projects/Day14-ScrollTopBottom)                   |
 
 _(More days will be added as I progress)_
 
