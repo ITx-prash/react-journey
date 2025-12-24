@@ -107,11 +107,27 @@ const Home = () => {
       path: "/day12-feature-flag",
       completed: true,
     },
-    ...Array.from({ length: 18 }, (_, i) => ({
-      day: i + 13,
-      title: `Day ${i + 13} Project`,
+    {
+      day: 13,
+      title: "Custom Hooks",
+      description:
+        "Custom hooks (useFetch, useOnClickOutside), useEffect, useRef, event listeners",
+      path: "/day13-custom-hooks",
+      completed: true,
+    },
+    {
+      day: 14,
+      title: "Scroll to Top/Bottom & Section",
+      description:
+        "scrollTo, scrollIntoView, useRef for DOM access, smooth scrolling behavior",
+      path: "/day14-scrolltopbottom",
+      completed: true,
+    },
+    ...Array.from({ length: 16 }, (_, i) => ({
+      day: i + 15,
+      title: `Day ${i + 15} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 13).padStart(2, "0")}`,
+      path: `/day${String(i + 15).padStart(2, "0")}`,
       completed: false,
     })),
   ];

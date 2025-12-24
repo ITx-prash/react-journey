@@ -17,6 +17,7 @@ import GithubFind from "./projects/Day10-Github-Profiles/GithubFind";
 import AutoComplete from "./projects/Day11-Search-Autocomplete/AutoComplete";
 import FeatureFlag from "./projects/Day12-Feature-Flag/FeatureFlag";
 import TestUseFetch from "./projects/Day13-Custom-Hooks/testUseFetch";
+import ScrollTopBottom from "./projects/Day14-ScrollTopBottom/ScrollTopBottom";
 
 const App = () => {
   return (
@@ -158,6 +159,15 @@ const App = () => {
             <>
               <NavHeader />
               <TestUseFetch />
+            </>
+          }
+        />
+        <Route
+          path="/day14-scrolltopbottom"
+          element={
+            <>
+              <NavHeader />
+              <ScrollTopBottom />
             </>
           }
         />
