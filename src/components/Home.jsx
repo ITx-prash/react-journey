@@ -123,7 +123,15 @@ const Home = () => {
       path: "/day14-scrolltopbottom",
       completed: true,
     },
-    ...Array.from({ length: 16 }, (_, i) => ({
+    {
+      day: 15,
+      title: "Weather App",
+      description:
+        "OpenWeather API, debouncing, coordinate-based queries, async/await, autocomplete dropdown",
+      path: "/day15-weatherApp",
+      completed: true,
+    },
+    ...Array.from({ length: 15 }, (_, i) => ({
       day: i + 15,
       title: `Day ${i + 15} Project`,
       description: "Coming soon...",

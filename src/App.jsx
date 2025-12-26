@@ -18,6 +18,7 @@ import AutoComplete from "./projects/Day11-Search-Autocomplete/AutoComplete";
 import FeatureFlag from "./projects/Day12-Feature-Flag/FeatureFlag";
 import TestUseFetch from "./projects/Day13-Custom-Hooks/testUseFetch";
 import ScrollTopBottom from "./projects/Day14-ScrollTopBottom/ScrollTopBottom";
+import Weather from "./projects/Day15-WeatherApp/Weather";
 
 const App = () => {
   return (
@@ -168,6 +169,15 @@ const App = () => {
             <>
               <NavHeader />
               <ScrollTopBottom />
+            </>
+          }
+        />
+        <Route
+          path="/day15-weatherApp"
+          element={
+            <>
+              <NavHeader />
+              <Weather/>
             </>
           }
         />
