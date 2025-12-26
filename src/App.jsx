@@ -177,7 +177,7 @@ const App = () => {
           element={
             <>
               <NavHeader />
-              <Weather/>
+              <Weather />
             </>
           }
         />
