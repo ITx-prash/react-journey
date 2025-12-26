@@ -13,7 +13,7 @@ const Weather = () => {
   const [error, setError] = useState(null);
 
   //for dropdown city list
-  const cityUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${userSearch}&limit=5&appid=${API_KEY}`;
+  const cityUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${userSearch}&limit=5&appid=${API_KEY}`;
 
   useEffect(() => {
     if (userSearch.length < 3) {
