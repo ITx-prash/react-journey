@@ -19,6 +19,10 @@ import FeatureFlag from "./projects/Day12-Feature-Flag/FeatureFlag";
 import TestUseFetch from "./projects/Day13-Custom-Hooks/testUseFetch";
 import ScrollTopBottom from "./projects/Day14-ScrollTopBottom/ScrollTopBottom";
 import Weather from "./projects/Day15-WeatherApp/Weather";
+import RecipeHome from "./projects/Day16/17-Food-Recipe/pages/RecipeHome";
+import Favourites from "./projects/Day16/17-Food-Recipe/pages/Favourites";
+import RecipeDetails from "./projects/Day16/17-Food-Recipe/pages/RecipeDetails";
+import GlobalState from "./projects/Day16/17-Food-Recipe/context";
 
 const App = () => {
   return (
@@ -179,6 +183,18 @@ const App = () => {
               <NavHeader />
               <Weather />
             </>
+          }
+        />
+        <Route
+          path="/day16-FoodRecipe/*"
+          element={
+            <GlobalState>
+              <Routes>
+                <Route index element={<RecipeHome />} />
+                <Route path="favourites" element={<Favourites />} />
+                <Route path="recipe-item/:id" element={<RecipeDetails />} />
+              </Routes>
+            </GlobalState>
           }
         />
       </Routes>
