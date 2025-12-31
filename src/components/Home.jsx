@@ -112,7 +112,7 @@ const Home = () => {
       title: "Custom Hooks",
       description:
         "Custom hooks (useFetch, useOnClickOutside), useEffect, useRef, event listeners",
-      path: "/day13-custom-hooks",
+      path: "/day13-usefetch",
       completed: true,
     },
     {
@@ -131,11 +131,19 @@ const Home = () => {
       path: "/day15-weatherApp",
       completed: true,
     },
-    ...Array.from({ length: 15 }, (_, i) => ({
-      day: i + 15,
-      title: `Day ${i + 15} Project`,
+    {
+      day: 16,
+      title: "Food Recipe App",
+      description:
+        "Context API (createContext, useContext, Provider), React Router nested routes, useNavigate, debouncing, conditional rendering patterns",
+      path: "/day16-FoodRecipe",
+      completed: true,
+    },
+    ...Array.from({ length: 14 }, (_, i) => ({
+      day: i + 17,
+      title: `Day ${i + 17} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 15).padStart(2, "0")}`,
+      path: `/day${String(i + 17).padStart(2, "0")}`,
       completed: false,
     })),
   ];
