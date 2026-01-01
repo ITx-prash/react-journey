@@ -35,6 +35,7 @@ _This README will be updated each day as I progress through the challenge._
 |  14   | Scroll to Top/Bottom & Section   | scrollTo, scrollIntoView, useRef for DOM access, smooth scrolling behavior                                                                                                                             | [Day14-ScrollTopBottom](./src/projects/Day14-ScrollTopBottom)                   |
 |  15   | Weather App                      | OpenWeather API, debouncing, coordinate-based queries, async/await, autocomplete dropdown                                                                                                              | [Day15-WeatherApp](./src/projects/Day15-WeatherApp)                             |
 | 16/17 | Food Recipe App                  | Context API (createContext, useContext, Provider), React Router nested routes, useNavigate, debouncing with useEffect cleanup, conditional rendering patterns (early returns), Forkify API integration | [Day16/17-Food-Recipe](./src/projects/Day16/17-Food-Recipe)                     |
+|  18   | Shopping Cart with Redux         | Redux Toolkit (createSlice, configureStore), useSelector for selecting specific state slices, useDispatch actions, Provider setup                                                                      | [Day18-ShoppingCartRedux](./src/projects/Day18-ShoppingCartRedux)               |
 
 _(More days will be added as I progress)_
 
