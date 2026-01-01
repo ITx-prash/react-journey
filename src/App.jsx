@@ -23,6 +23,11 @@ import RecipeHome from "./projects/Day16/17-Food-Recipe/pages/RecipeHome";
 import Favourites from "./projects/Day16/17-Food-Recipe/pages/Favourites";
 import RecipeDetails from "./projects/Day16/17-Food-Recipe/pages/RecipeDetails";
 import GlobalState from "./projects/Day16/17-Food-Recipe/context";
+import Homepage from "./projects/Day18-ShoppingCartRedux/pages/Homepage";
+import Navbar from "./projects/Day18-ShoppingCartRedux/components/Navbar";
+import CartPage from "./projects/Day18-ShoppingCartRedux/pages/CartPage";
+import { Provider } from "react-redux";
+import store from "./projects/Day18-ShoppingCartRedux/store";
 
 const App = () => {
   return (
@@ -195,6 +200,34 @@ const App = () => {
                 <Route path="recipe-item/:id" element={<RecipeDetails />} />
               </Routes>
             </GlobalState>
+          }
+        />
+        <Route
+          path="/day18-shopping/*"
+          element={
+            <Provider store={store}>
+              <Routes>
+                <Route
+                  index
+                  element={
+                    <>
+                      {/* <Navbar /> */}
+                      <Homepage />
+                    </>
+                  }
+                />
+
+                <Route
+                  path="cart"
+                  element={
+                    <>
+                      {/* <Navbar /> */}
+                      <CartPage />
+                    </>
+                  }
+                />
+              </Routes>
+            </Provider>
           }
         />
       </Routes>

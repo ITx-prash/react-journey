@@ -139,7 +139,15 @@ const Home = () => {
       path: "/day16-FoodRecipe",
       completed: true,
     },
-    ...Array.from({ length: 14 }, (_, i) => ({
+    {
+      day: 18,
+      title: "Shopping Cart with Redux",
+      description:
+        "Redux Toolkit (createSlice, configureStore), useSelector for selecting specific state slices, useDispatch actions, Provider setup",
+      path: "/day18-shopping",
+      completed: true,
+    },
+    ...Array.from({ length: 12 }, (_, i) => ({
       day: i + 17,
       title: `Day ${i + 17} Project`,
       description: "Coming soon...",
