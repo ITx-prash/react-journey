@@ -4,8 +4,6 @@ Welcome to my **30 Days of React** journey! This repository, `react-journey`, do
 
 _This README will be updated each day as I progress through the challenge._
 
-🔗 **Live Demo:** [react-journy.vercel.app](https://react-journy.vercel.app/)
-
 ---
 
 ## 🚀 **Goal**
@@ -36,6 +34,7 @@ _This README will be updated each day as I progress through the challenge._
 |  15   | Weather App                      | OpenWeather API, debouncing, coordinate-based queries, async/await, autocomplete dropdown                                                                                                              | [Day15-WeatherApp](./src/projects/Day15-WeatherApp)                             |
 | 16/17 | Food Recipe App                  | Context API (createContext, useContext, Provider), React Router nested routes, useNavigate, debouncing with useEffect cleanup, conditional rendering patterns (early returns), Forkify API integration | [Day16/17-Food-Recipe](./src/projects/Day16/17-Food-Recipe)                     |
 |  18   | Shopping Cart with Redux         | Redux Toolkit (createSlice, configureStore), useSelector for selecting specific state slices, useDispatch actions, Provider setup                                                                      | [Day18-ShoppingCartRedux](./src/projects/Day18-ShoppingCartRedux)               |
+|  19   | React Theory & Hooks Deep Dive   | React rendering mechanism, Virtual DOM, reconciliation, useState, useEffect, useRef, useMemo, useCallback, custom hooks, component lifecycle                                                           | [Day19-Theory](./src/projects/Day19-Theory)                                     |
 
 _(More days will be added as I progress)_
 
@@ -62,6 +61,7 @@ _(More days will be added as I progress)_
 
 I'll be posting daily updates about what I learned and the projects I built.
 
+- **Live Demo:** [react-journy.vercel.app](https://react-journy.vercel.app/)
 - **Twitter:** [@ITx_prash](https://twitter.com/ITx_prash) for daily updates.
 - **GitHub:** [react-journey](https://github.com/ITx-prash/react-journey)
 
