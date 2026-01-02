@@ -28,6 +28,7 @@ import Navbar from "./projects/Day18-ShoppingCartRedux/components/Navbar";
 import CartPage from "./projects/Day18-ShoppingCartRedux/pages/CartPage";
 import { Provider } from "react-redux";
 import store from "./projects/Day18-ShoppingCartRedux/store";
+import Theory from "./projects/Day19-Theory/Theory";
 
 const App = () => {
   return (
@@ -228,6 +229,16 @@ const App = () => {
                 />
               </Routes>
             </Provider>
+          }
+        />
+        <Route path="/day19-theory-hooks" element={<Theory />}></Route>
+        <Route
+          path="/day19-theory"
+          element={
+            <>
+              <NavHeader />
+              <Theory />
+            </>
           }
         />
       </Routes>

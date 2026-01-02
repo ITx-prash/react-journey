@@ -147,11 +147,19 @@ const Home = () => {
       path: "/day18-shopping",
       completed: true,
     },
-    ...Array.from({ length: 12 }, (_, i) => ({
-      day: i + 17,
-      title: `Day ${i + 17} Project`,
+    {
+      day: 19,
+      title: "React Theory & Hooks Deep Dive",
+      description:
+        "React rendering mechanism, Virtual DOM, reconciliation, all React hooks (useState, useEffect, useRef, useMemo, useCallback), custom hooks",
+      path: "/day19-theory",
+      completed: true,
+    },
+    ...Array.from({ length: 11 }, (_, i) => ({
+      day: i + 20,
+      title: `Day ${i + 20} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 17).padStart(2, "0")}`,
+      path: `/day${String(i + 20).padStart(2, "0")}`,
       completed: false,
     })),
   ];
