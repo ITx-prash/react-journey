@@ -35,6 +35,7 @@ _This README will be updated each day as I progress through the challenge._
 | 16/17 | Food Recipe App                  | Context API (createContext, useContext, Provider), React Router nested routes, useNavigate, debouncing with useEffect cleanup, conditional rendering patterns (early returns), Forkify API integration | [Day16/17-Food-Recipe](./src/projects/Day16/17-Food-Recipe)                     |
 |  18   | Shopping Cart with Redux         | Redux Toolkit (createSlice, configureStore), useSelector for selecting specific state slices, useDispatch actions, Provider setup                                                                      | [Day18-ShoppingCartRedux](./src/projects/Day18-ShoppingCartRedux)               |
 |  19   | React Theory & Hooks Deep Dive   | React rendering mechanism, Virtual DOM, reconciliation, useState, useEffect, useRef, useMemo, useCallback, custom hooks, component lifecycle                                                           | [Day19-Theory](./src/projects/Day19-Theory)                                     |
+|  20   | Performance Optimization Hooks   | useMemo for expensive computations, useCallback for function memoization, React.memo for component optimization, reference equality with non-primitive props                                           | [Day20-SomeMoreHooks](./src/projects/Day20-SomeMoreHooks)                       |
 
 _(More days will be added as I progress)_
 
