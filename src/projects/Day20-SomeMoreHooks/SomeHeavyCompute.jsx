@@ -1,5 +1,6 @@
 import React from "react";
-
+//we can use React.memo to memoize the heavy compute component to avoid re-rendering on each parent render
+//and only re-render it when its props change
 const SomeHeavyCompute = React.memo(({ number }) => {
   const naturalSum = () => {
     let sum = 0;
