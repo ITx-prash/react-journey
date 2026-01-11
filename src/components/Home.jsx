@@ -155,11 +155,19 @@ const Home = () => {
       path: "/day19-theory",
       completed: true,
     },
-    ...Array.from({ length: 11 }, (_, i) => ({
-      day: i + 20,
-      title: `Day ${i + 20} Project`,
+    {
+      day: 20,
+      title: "Performance Optimization Hooks",
+      description:
+        "useMemo for expensive computations, useCallback for function memoization, React.memo for component optimization, reference equality",
+      path: "/day20-performance-hooks",
+      completed: true,
+    },
+    ...Array.from({ length: 10 }, (_, i) => ({
+      day: i + 21,
+      title: `Day ${i + 21} Project`,
       description: "Coming soon...",
-      path: `/day${String(i + 20).padStart(2, "0")}`,
+      path: `/day${String(i + 21).padStart(2, "0")}`,
       completed: false,
     })),
   ];

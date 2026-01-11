@@ -29,6 +29,7 @@ import CartPage from "./projects/Day18-ShoppingCartRedux/pages/CartPage";
 import { Provider } from "react-redux";
 import store from "./projects/Day18-ShoppingCartRedux/store";
 import Theory from "./projects/Day19-Theory/Theory";
+import UseCallbackTh from "./projects/Day20-SomeMoreHooks/UseCallbackTh&Memo";
 
 const App = () => {
   return (
@@ -238,6 +239,15 @@ const App = () => {
             <>
               <NavHeader />
               <Theory />
+            </>
+          }
+        />
+        <Route
+          path="/day20-performance-hooks"
+          element={
+            <>
+              <NavHeader />
+              <UseCallbackTh />
             </>
           }
         />
