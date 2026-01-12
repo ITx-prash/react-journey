@@ -1,8 +1,8 @@
-# ⚛️ **30 Days of React (Starting Phase)**
+# ⚛️ **20 Days of React - Foundation Complete!**
 
-Welcome to my **30 Days of React** journey! This repository, `react-journey`, documents my progress as I dive into React.js with an initial 30 days challenge. I'll be building different projects, learning core concepts, and documenting everything I learn along the way.
+Welcome to my **React Learning Journey**! This repository, `react-journey`, documents my 20-day structured challenge where I built different projects, learned core concepts, and documented everything along the way.
 
-_This README will be updated each day as I progress through the challenge._
+_This phase focused on building a strong React foundation through project-based learning._
 
 ---
 
@@ -37,16 +37,19 @@ _This README will be updated each day as I progress through the challenge._
 |  19   | React Theory & Hooks Deep Dive   | React rendering mechanism, Virtual DOM, reconciliation, useState, useEffect, useRef, useMemo, useCallback, custom hooks, component lifecycle                                                           | [Day19-Theory](./src/projects/Day19-Theory)                                     |
 |  20   | Performance Optimization Hooks   | useMemo for expensive computations, useCallback for function memoization, React.memo for component optimization, reference equality with non-primitive props                                           | [Day20-SomeMoreHooks](./src/projects/Day20-SomeMoreHooks)                       |
 
-_(More days will be added as I progress)_
+✅ **Phase 1 Complete!** — 20 days of structured React learning finished.
 
 ---
 
-## 🧠 **What I Plan to Do**
+## 🧠 **What's Next**
 
-- Build a new project or learn a significant concept each day.
-- Document my learnings and challenges.
-- Share my progress on X for accountability.
-- Push code to this repository daily.
+**Day 20 marks the completion of this structured React challenge.**
+
+I'm now shifting focus to **TypeScript** and documenting that journey in a new repository:
+
+➡️ **[typescript-journey](https://github.com/ITx-prash/typescript-journey)**
+
+I'll also be diving deeper into advanced Tailwind CSS, Framer Motion, and building full-stack projects that combine everything. React remains an integral part of my stack and I'll continue improving through real projects, just not in this daily format.
 
 ---
 
