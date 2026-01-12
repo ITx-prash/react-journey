@@ -163,13 +163,6 @@ const Home = () => {
       path: "/day20-performance-hooks",
       completed: true,
     },
-    ...Array.from({ length: 10 }, (_, i) => ({
-      day: i + 21,
-      title: `Day ${i + 21} Project`,
-      description: "Coming soon...",
-      path: `/day${String(i + 21).padStart(2, "0")}`,
-      completed: false,
-    })),
   ];
 
   return (
@@ -178,10 +171,10 @@ const Home = () => {
         {/* Header */}
         <div className="mb-12 text-center">
           <h1 className="mb-4 text-5xl font-bold text-gray-800">
-            ⚛️ 30 Days of React Journey
+            ⚛️ 20 Days of React — Complete!
           </h1>
           <p className="text-xl text-gray-600">
-            Building projects daily to master React.js
+            A project-based journey to master React.js fundamentals
           </p>
           <p className="mt-2 text-sm text-gray-500 italic">
             Note: All projects are built by me for learning. This landing page
@@ -212,15 +205,13 @@ const Home = () => {
         <div className="mb-8 flex justify-center gap-8">
           <div className="rounded-lg bg-white px-6 py-4 shadow-md">
             <p className="text-3xl font-bold text-green-600">
-              {projects.filter((p) => p.completed).length}
+              {projects.length}
             </p>
-            <p className="text-sm text-gray-600">Completed</p>
+            <p className="text-sm text-gray-600">Projects Built</p>
           </div>
           <div className="rounded-lg bg-white px-6 py-4 shadow-md">
-            <p className="text-3xl font-bold text-blue-600">
-              {projects.filter((p) => !p.completed).length}
-            </p>
-            <p className="text-sm text-gray-600">Remaining</p>
+            <p className="text-3xl font-bold text-blue-600">20</p>
+            <p className="text-sm text-gray-600">Days Completed</p>
           </div>
         </div>
 
@@ -229,21 +220,13 @@ const Home = () => {
           {projects.map((project) => (
             <div
               key={project.day}
-              className={`rounded-lg bg-white p-6 shadow-lg transition-all hover:shadow-xl ${
-                !project.completed && "opacity-60"
-              }`}
+              className="rounded-lg bg-white p-6 shadow-lg transition-all hover:shadow-xl"
             >
               <div className="mb-4 flex items-center justify-between">
-                <span
-                  className={`rounded-full px-3 py-1 text-sm font-semibold ${
-                    project.completed
-                      ? "bg-green-100 text-green-700"
-                      : "bg-gray-100 text-gray-600"
-                  }`}
-                >
+                <span className="rounded-full bg-green-100 px-3 py-1 text-sm font-semibold text-green-700">
                   Day {String(project.day).padStart(2, "0")}
                 </span>
-                {project.completed && <span className="text-2xl">✅</span>}
+                <span className="text-2xl">✅</span>
               </div>
               <h3 className="mb-2 text-xl font-bold text-gray-800">
                 {project.title}
@@ -251,19 +234,13 @@ const Home = () => {
               <p className="mb-4 text-sm text-gray-600">
                 {project.description}
               </p>
-              {project.completed ? (
-                <Link
-                  to={project.path}
-                  className="flex items-center gap-2 font-semibold text-blue-600 hover:text-blue-700"
-                >
-                  View Project
-                  <MdArrowForward />
-                </Link>
-              ) : (
-                <span className="text-sm text-gray-400 italic">
-                  Coming soon...
-                </span>
-              )}
+              <Link
+                to={project.path}
+                className="flex items-center gap-2 font-semibold text-blue-600 hover:text-blue-700"
+              >
+                View Project
+                <MdArrowForward />
+              </Link>
             </div>
           ))}
         </div>
