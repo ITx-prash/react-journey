@@ -45,11 +45,7 @@ _This phase focused on building a strong React foundation through project-based 
 
 **Day 20 marks the completion of this structured React challenge.**
 
-I'm now shifting focus to **TypeScript** and documenting that journey in a new repository:
-
-➡️ **[typescript-journey](https://github.com/ITx-prash/typescript-journey)**
-
-I'll also be diving deeper into advanced Tailwind CSS, Framer Motion, and building full-stack projects that combine everything. React remains an integral part of my stack and I'll continue improving through real projects, just not in this daily format.
+I'm now shifting focus to **TypeScript** and also be diving deeper into advanced Tailwind CSS, Framer Motion, and building full-stack projects that combine everything. React remains an integral part of my stack and I'll continue improving through real projects, just not in this daily format.
 
 ---
 
