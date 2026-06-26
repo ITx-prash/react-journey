@@ -37,7 +37,7 @@ _This phase focused on building a strong React foundation through project-based 
 |  19   | React Theory & Hooks Deep Dive   | React rendering mechanism, Virtual DOM, reconciliation, useState, useEffect, useRef, useMemo, useCallback, custom hooks, component lifecycle                                                           | [Day19-Theory](./src/projects/Day19-Theory)                                     |
 |  20   | Performance Optimization Hooks   | useMemo for expensive computations, useCallback for function memoization, React.memo for component optimization, reference equality with non-primitive props                                           | [Day20-SomeMoreHooks](./src/projects/Day20-SomeMoreHooks)                       |
 
-✅ **Phase 1 Complete!** — 20 days of structured React learning finished.
+**Phase 1 Complete!** — 20 days of structured React.
 
 ---
 
